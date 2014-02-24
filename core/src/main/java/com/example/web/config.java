@@ -1,9 +1,10 @@
-package com.example.service;
+package com.example.web;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.example")
+@ComponentScan(basePackages = "com.example")
 public class Config {
+
 }

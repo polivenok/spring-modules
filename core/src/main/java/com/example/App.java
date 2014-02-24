@@ -1,5 +1,7 @@
-package com.example.service;
+package com.example;
 
+import com.example.service.PluginsService;
+import com.example.web.Config;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
