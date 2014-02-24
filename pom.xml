@@ -17,6 +17,8 @@
         <module>api</module>
         <module>plugin1</module>
         <module>plugin2</module>
+        <module>scala-plugin</module>
+        <module>groovy-plugin</module>
         <module>core</module>
     </modules>
 
