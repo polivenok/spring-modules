@@ -7,6 +7,11 @@ import org.springframework.stereotype.Component;
 public class Plugin2 implements PluginInterface {
     @Override
     public String performAction(String parameter) {
-        return "plugin 2 invoked with " + parameter;
+        return name() + " invoked with " + parameter;
+    }
+
+    @Override
+    public String name() {
+        return "plugin2";
     }
 }
