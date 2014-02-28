@@ -11,7 +11,7 @@ Project consists of following modules:
   * Groovy-plugin. Implementation of API in groovy.
   * Core. Web spring project with REST API. Loads all plugins specified in dependencies and provides simple REST API to invoke plugins by name.
 
-Common modules can also be introduced to share common logic used in all plugins.
+Common module can be introduced to share common logic used in all plugins.
 
-Archetype for creating custom third party can be provided, and using maven overlays newly created plugin may be added to core module.
+Archetype for creating custom third party plugin (with only binary maven dependencies on API and Core module) can be provided, and using maven overlays newly created plugin may be added to core module.
 
